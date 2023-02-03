@@ -1,0 +1,145 @@
+*{
+    padding: 1%;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(189deg, rgb(244, 234, 147), transparent);
+    color: #000;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:#FC0
+}
+
+a:hover{
+    background-color:rgb(36, 75, 87);
+    color:rgb(222, 222, 222);
+    border-radius: 30px;
+    transition: 0.4s;
+}
+a:active{
+    color:#F3F
+}
+
+
+.logo{
+    font-size:50px
+}
+
+.logo:hover{
+    font-size: 70px;
+    transition: 0.5s;
+}
+
+#navlist li{
+    display: inline;
+    list-style-type:circle;
+    padding-right: 20px;
+    border-left: 1px solid #000;
+    line-height: 1.1em;
+    margin: 0 .5em 0 -.5em;
+    padding: 0 .5em 0 .5em;
+}
+
+.box {
+    text-align: center;
+    color: white;
+    margin:10px;
+    padding:30px 20px;
+    background-color:rgb(238, 184, 118);
+    border-style:none;
+    border-radius: 30px;
+    clear:both;
+}
+.nav{
+    margin: 10px;
+    padding:10px;
+    background-color:#999;
+    border-style: none;
+    border-radius: 20px 20px 0 0;
+}
+
+.nav:hover{
+    height: 70px;
+    padding-top: 30px;
+    border-radius: 40px;
+    transition: 0.4s;
+}
+
+.lower-nav:hover{
+    height: 70px;
+    padding-top: 30px;
+    border-radius: 40px;
+    transition: 0.4s;
+}
+
+
+
+.left{
+    height: 300px;
+    text-align: center;
+    width: 20%;
+    margin:10px;
+    padding:10px;
+    background-color: rgb(235, 225, 177);
+    border-style: none;
+    float: left;
+}
+
+.center{
+    height: 300px;
+    text-align: center;
+    width: 51%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(230, 223, 193);
+    border-style: none;
+    float: left;
+}
+
+.right{
+    height: 300px;
+    text-align: center;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    background-color:  rgb(235, 225, 177);
+    border-style: none;
+    float: right;
+}
+
+.right:hover, .left:hover, .center:hover{
+    padding-top:15%;
+    transition: 0.4s;
+    color: white;
+    background-color: #999;
+    border-radius: 30px;
+    font-size: 60px;
+}
+.lower-nav{
+    margin: 10px;
+    padding: 10px;
+    background-color: #999;
+    border-style: none;
+    border-radius: 0px 0px 10px 10px;
+    clear: both;
+}
+
+.legal{
+    margin: 10px;
+    padding: 10px;
+    float: none;
+    clear: both;
+}
+
+.deadnav{
+    color: #fff;
+    background-color: #3CF;
+}
